@@ -9,7 +9,8 @@
 .grid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 10px;
 }
 .grid img{
     border: 2px solid black;
@@ -26,10 +27,20 @@
     background-color: #a6abf0;
     width: 310px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
 }
 body{
     background-color: #e3f1bb;
+    margin: 0px;
 }
 p{
     font-family:Georgia, 'Times New Roman', Times;
+}
+li{
+    font-family:Georgia, 'Times New Roman', Times;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times;
+    margin-left: 20px;
+    color: rgb(0, 124, 0);
 }
