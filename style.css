@@ -6,6 +6,9 @@
     color:white;
     border: 5px solid #7c67db;
 }
+.header a{
+    margin-left: 5px;
+}
 .grid{
     display: flex;
     flex-wrap: wrap;
@@ -23,11 +26,19 @@
     background-color: #cfe988;
 }
 .info{
+    position: relative;
     border-radius: 20px;
     background-color: #a6abf0;
     width: 310px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
+}
+.info h6{
+    position: absolute; 
+    opacity: 1;
+    top: 2%;
+    left: 43%;
+    transform: translate(-2%, -43%);
 }
 body{
     background-color: #e3f1bb;
@@ -42,5 +53,17 @@ li{
 h3{
     font-family:Georgia, 'Times New Roman', Times;
     margin-left: 20px;
-    color: rgb(0, 124, 0);
+    color: rgb(51, 134, 51);
+}
+a:link{
+    color: rgb(106, 4, 202);
+}
+a:visited{
+    color: white;
+}
+.info img:hover{
+    transform: scale(1.07);
+}
+.info h6:hover{
+    opacity: 2;
 }
